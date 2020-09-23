@@ -1,0 +1,51 @@
+.social {
+    
+    & > * {
+        margin-bottom: 1rem;
+    }
+    &__icon {
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+.heading {
+    &--main {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 12.5rem;
+    }
+
+    &--sup {
+        font-size: 1.125rem;
+        color: #ddc4a0;
+        text-transform: uppercase;
+        letter-spacing: .3em;
+    }
+
+    &--sub {
+        font-size: 1.125rem;
+        max-width: 85%;
+        margin-bottom: 2rem;
+        line-height: 2;
+    }
+}
+
+.cta {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: underline;
+    line-height: 2.3;
+    text-transform: uppercase;
+    text-underline-position: under;
+}
+
+.hero {
+    height: 52rem;
+    &__image {
+        height: 100%;
+        margin-right: -3rem;
+    }
+}

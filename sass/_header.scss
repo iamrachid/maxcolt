@@ -1,5 +1,12 @@
 header {
-    padding:1.1rem 4rem ;
+    padding:1.1rem 0;
+}
+nav {
+    padding: 0 !important;
+}
+
+section {
+    margin: 0 !important;
 }
 
 .brand {
@@ -32,25 +39,26 @@ header {
 }
 
 .cart {
-
+    cursor: pointer;
+    margin-right: 2rem;
     &__icon {
         width: 2.5rem;
         height:1.3rem;
-        margin-right: 3rem;
     }
 }
 
-.form-inline:hover .form-control.form-control.form-control{
-    display: inline;
-    width: auto;
-    animation: fadein .8s;
+.form-control.form-control.form-control:hover, .search__btn:hover ~ .form-control.form-control.form-control {
+    visibility: visible;
+    width: 55%;
+    border: 1px solid #ced4da;
 }
 
 .search {
     &__bar.form-control.form-control {
-        display: none;
+        visibility: hidden;
         width: 0%;
-        transition: margin-left .8s;
+        border: none;
+        transition: width .8s,visibility .8s;
     }
 
     &__icon {
@@ -67,17 +75,7 @@ header {
         justify-content: center;
         align-items: center;
         margin-right: 0;
+        order: 3;
     }
 }
 
-@keyframes fadein {
-    0% {
-        width: 0%;
-        opacity: 0;
-    }
-
-    100% {
-        width: calc(100% - 3.1rem);
-        opacity: 1;
-    }
-}

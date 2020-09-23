@@ -3,11 +3,18 @@
   box-sizing: border-box; }
 
 body {
-  font-family: 'Roboto',sans-serif;
-  background-color: #fdfcfa; }
+  font-family: 'Roboto',sans-serif !important;
+  background-color: #fdfcfa;
+  padding: 0 5rem; }
 
 header {
-  padding: 1.1rem 4rem; }
+  padding: 1.1rem 0; }
+
+nav {
+  padding: 0 !important; }
+
+section {
+  margin: 0 !important; }
 
 .brand {
   font-family: 'Roboto',sans-serif;
@@ -29,20 +36,23 @@ header {
   font-weight: 500;
   text-transform: uppercase; }
 
-.cart__icon {
-  width: 2.5rem;
-  height: 1.3rem;
-  margin-right: 3rem; }
+.cart {
+  cursor: pointer;
+  margin-right: 2rem; }
+  .cart__icon {
+    width: 2.5rem;
+    height: 1.3rem; }
 
-.form-inline:hover .form-control.form-control.form-control {
-  display: inline;
-  width: auto;
-  animation: fadein .8s; }
+.form-control.form-control.form-control:hover, .search__btn:hover ~ .form-control.form-control.form-control {
+  visibility: visible;
+  width: 55%;
+  border: 1px solid #ced4da; }
 
 .search__bar.form-control.form-control {
-  display: none;
+  visibility: hidden;
   width: 0%;
-  transition: margin-left .8s; }
+  border: none;
+  transition: width .8s,visibility .8s; }
 
 .search__icon {
   width: 1.18rem;
@@ -56,12 +66,45 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 0; }
+  margin-right: 0;
+  order: 3; }
 
-@keyframes fadein {
-  0% {
-    width: 0%;
-    opacity: 0; }
-  100% {
-    width: calc(100% - 3.1rem);
-    opacity: 1; } }
+.social > * {
+  margin-bottom: 1rem; }
+
+.social__icon {
+  width: 1rem;
+  height: 1rem; }
+
+.heading--main {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 12.5rem; }
+
+.heading--sup {
+  font-size: 1.125rem;
+  color: #ddc4a0;
+  text-transform: uppercase;
+  letter-spacing: .3em; }
+
+.heading--sub {
+  font-size: 1.125rem;
+  max-width: 85%;
+  margin-bottom: 2rem;
+  line-height: 2; }
+
+.cta {
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 2.3;
+  text-transform: uppercase;
+  text-underline-position: under; }
+
+.hero {
+  height: 52rem; }
+  .hero__image {
+    height: 100%;
+    margin-right: -3rem; }
