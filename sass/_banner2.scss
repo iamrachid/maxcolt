@@ -25,6 +25,10 @@
         padding-top:3rem;
         padding-bottom:5rem;
 
+        @media (max-width: 768px) {
+            padding-bottom: 0rem;
+        }
+
         &-style,&-style:hover,&-style:visited{
             color: black;
             text-decoration: underline;
@@ -37,6 +41,10 @@
     &_image{
         height: 30rem;
         padding: 3rem 0;
+
+        @media (max-width: 768px) {
+            height: 20rem;
+        }
     }
 
 }

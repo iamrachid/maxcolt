@@ -94,6 +94,12 @@
   padding: 3rem;
   max-width: 50rem !important;
   margin: auto; }
+  @media (max-width: 991px) {
+    .fashion_novel_row {
+      margin-left: 30% !important; } }
+  @media (max-width: 540px) {
+    .fashion_novel_row {
+      margin-left: 20% !important; } }
   .fashion_novel_image {
     position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 100%, 80% 75%, 0 75%);
@@ -126,9 +132,9 @@
       font-size: .7rem; }
 
 .section_logo {
-  padding: 5rem; }
+  padding: 3rem; }
   .section_logos {
-    padding: 0rem 2rem;
+    padding: 2rem 2rem;
     max-height: 150px; }
 
 .bag_banner {
@@ -150,6 +156,9 @@
   .bag_banner_button {
     padding-top: 3rem;
     padding-bottom: 5rem; }
+    @media (max-width: 768px) {
+      .bag_banner_button {
+        padding-bottom: 0rem; } }
     .bag_banner_button-style, .bag_banner_button-style:hover, .bag_banner_button-style:visited {
       color: black;
       text-decoration: underline;
@@ -158,3 +167,6 @@
   .bag_banner_image {
     height: 30rem;
     padding: 3rem 0; }
+    @media (max-width: 768px) {
+      .bag_banner_image {
+        height: 20rem; } }
