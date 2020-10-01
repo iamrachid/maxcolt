@@ -124,3 +124,37 @@
       text-decoration: underline;
       font-weight: 700;
       font-size: .7rem; }
+
+.section_logo {
+  padding: 5rem; }
+  .section_logos {
+    padding: 0rem 2rem;
+    max-height: 150px; }
+
+.bag_banner {
+  background: -webkit-linear-gradient(60deg, #f2f2f2 60%, #edd6b6 40%);
+  background: linear-gradient(60deg, #f2f2f2 60%, #edd6b6 40%); }
+  .bag_banner_row {
+    padding-left: 5rem; }
+  .bag_banner_title {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 10rem; }
+  .bag_banner_text {
+    color: grey;
+    width: 100% !important;
+    font-size: .7rem;
+    padding-top: 1rem;
+    margin: auto;
+    width: 30rem; }
+  .bag_banner_button {
+    padding-top: 3rem;
+    padding-bottom: 5rem; }
+    .bag_banner_button-style, .bag_banner_button-style:hover, .bag_banner_button-style:visited {
+      color: black;
+      text-decoration: underline;
+      font-weight: 700;
+      font-size: .7rem; }
+  .bag_banner_image {
+    height: 30rem;
+    padding: 3rem 0; }

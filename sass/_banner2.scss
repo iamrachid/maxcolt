@@ -1,0 +1,42 @@
+.bag_banner{
+    background: -webkit-linear-gradient(60deg,#f2f2f2 60%, #edd6b6 40%);
+    background: linear-gradient(60deg,#f2f2f2 60%, #edd6b6 40%);
+
+    &_row{
+        padding-left: 5rem;
+    }
+
+    &_title{
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin-top: 10rem;
+    }
+
+    &_text{
+        color: grey;
+        width: 100% !important;
+        font-size: .7rem;
+        padding-top: 1rem;
+        margin: auto;
+        width: 30rem;
+    }
+
+    &_button{
+        padding-top:3rem;
+        padding-bottom:5rem;
+
+        &-style,&-style:hover,&-style:visited{
+            color: black;
+            text-decoration: underline;
+            font-weight: 700;
+            font-size: .7rem;
+
+        }
+    }
+
+    &_image{
+        height: 30rem;
+        padding: 3rem 0;
+    }
+
+}
