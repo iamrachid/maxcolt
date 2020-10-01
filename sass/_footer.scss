@@ -60,13 +60,14 @@
     &_bottom{
 
         padding: 1.5rem;
+        padding-bottom: .5rem;
         border-top-style:solid;
         border-top-color: rgba(43, 42, 42, 0.438);
         border-width: 1px;
 
         &_list{
-            padding: 0px;
-            margin: 0px;
+
+            margin-bottom: 0rem !important;
             &_element{
                 padding: .6rem;
                 text-decoration: none;

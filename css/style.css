@@ -39,12 +39,12 @@
 
 .footer_bottom {
   padding: 1.5rem;
+  padding-bottom: .5rem;
   border-top-style: solid;
   border-top-color: rgba(43, 42, 42, 0.438);
   border-width: 1px; }
   .footer_bottom_list {
-    padding: 0px;
-    margin: 0px; }
+    margin-bottom: 0rem !important; }
     .footer_bottom_list_element {
       padding: .6rem;
       text-decoration: none;
@@ -53,3 +53,62 @@
       color: white;
       font-weight: 500;
       font-size: .8rem; }
+
+.shipping_bar-backgroundcolor {
+  padding: 5rem;
+  background-color: #dbdada; }
+
+.shipping_bar-title {
+  font-size: .8rem;
+  font-weight: 500; }
+
+.shipping_bar-text {
+  color: grey;
+  font-size: .7rem;
+  padding-top: .3rem; }
+
+.fashion_title {
+  font-size: 2rem;
+  font-weight: 500; }
+
+.fashion_text {
+  color: grey;
+  font-size: .7rem;
+  padding-top: 1rem;
+  margin: auto;
+  width: 30rem; }
+
+.fashion_novel {
+  padding: 3rem;
+  max-width: 50rem !important;
+  margin: auto; }
+  .fashion_novel_image {
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 100%, 80% 75%, 0 75%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 100%, 80% 75%, 0 75%);
+    height: 200px;
+    width: 250px;
+    background-position: center; }
+  .fashion_novel_underimage {
+    position: absolute;
+    top: 175px;
+    font-size: .8rem;
+    font-weight: 500; }
+    .fashion_novel_underimage_categ {
+      color: black; }
+    .fashion_novel_underimage_date {
+      color: grey; }
+  .fashion_novel_title {
+    padding-top: 1rem;
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2; }
+  .fashion_novel_button {
+    padding-top: 3rem;
+    padding-bottom: 5rem; }
+    .fashion_novel_button-style, .fashion_novel_button-style:hover, .fashion_novel_button-style:visited {
+      color: black;
+      text-decoration: underline;
+      font-weight: 700;
+      font-size: .7rem; }
