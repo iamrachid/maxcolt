@@ -6,7 +6,6 @@
     text-decoration: none;
 }
 
-
 .footer{
 
     &_backgroundcolor{
@@ -37,6 +36,10 @@
     &_list{
 
         padding-inline-start:0px ;
+
+
+
+
         &_element{
         padding-bottom: .5rem;
         list-style: none;
@@ -60,10 +63,12 @@
     &_bottom{
 
         padding: 1.5rem;
-        padding-bottom: .5rem;
         border-top-style:solid;
         border-top-color: rgba(43, 42, 42, 0.438);
         border-width: 1px;
+        position: relative;
+
+
 
         &_list{
 
@@ -76,6 +81,17 @@
                 color: white;
                 font-weight: 500;
                 font-size: .8rem;
+            }
+        }
+
+        &_icon{
+            display: inline;
+            position: absolute;
+            right: 0px;
+            
+            &s{
+            height: 30px;
+            width: 40px;
             }
         }
     }

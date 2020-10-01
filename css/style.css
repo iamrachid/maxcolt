@@ -39,10 +39,10 @@
 
 .footer_bottom {
   padding: 1.5rem;
-  padding-bottom: .5rem;
   border-top-style: solid;
   border-top-color: rgba(43, 42, 42, 0.438);
-  border-width: 1px; }
+  border-width: 1px;
+  position: relative; }
   .footer_bottom_list {
     margin-bottom: 0rem !important; }
     .footer_bottom_list_element {
@@ -53,10 +53,22 @@
       color: white;
       font-weight: 500;
       font-size: .8rem; }
+  .footer_bottom_icon {
+    display: inline;
+    position: absolute;
+    right: 0px; }
+    .footer_bottom_icons {
+      height: 30px;
+      width: 40px; }
 
 .shipping_bar-backgroundcolor {
   padding: 5rem;
   background-color: #dbdada; }
+
+.shipping_bar_icons {
+  height: 40px;
+  width: 100%;
+  margin-bottom: .5rem; }
 
 .shipping_bar-title {
   font-size: .8rem;
