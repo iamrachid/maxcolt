@@ -1,0 +1,36 @@
+.beauty {
+    background: linear-gradient(to top, rgb(255, 255, 255) 0%, rgb(255,255,255) 63%, rgb(237, 214, 182) 63%);
+    padding-bottom: 9.375rem;;
+    &__heading {
+        font-size: 6.25rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 4.3rem;
+    }
+
+    &__text {
+        color: rgb(144, 144, 144);
+        line-height: 1.875;
+        margin: 3rem 0;
+    }
+
+    &__img {
+        border: 20px solid rgb(237, 214, 182);
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.12);
+        height: 43rem;
+        position: relative;
+
+
+        &::before {
+            content: "";
+            border: 3px solid rgb(237, 214, 182);
+            display: block;
+            height: 35rem;
+            width: 105%;
+            position: absolute;
+            left: 3rem;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
