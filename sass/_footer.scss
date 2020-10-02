@@ -1,0 +1,98 @@
+.fa,.fa:hover{
+    font-size: 1rem !important;
+    padding: .5rem;
+    padding-top: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+
+    &_backgroundcolor{
+    background-color:rgb(0, 0, 0);
+    }
+
+    &_top-padding{
+        padding :5rem;
+    }
+
+    &_title{
+
+        &_big{
+            font-size:1.5rem;
+
+        }
+
+        &_little{
+            padding-top: .8rem;
+        }
+        padding-bottom: 1rem;
+        font-weight: 700;
+        font-size: .8rem;
+        color: white;
+    }
+
+
+    &_list{
+
+        padding-inline-start:0px ;
+
+
+
+
+        &_element{
+        padding-bottom: .5rem;
+        list-style: none;
+        color: grey;
+        font-size: .8rem;
+        font-weight: 500;
+        }
+    }
+
+
+
+    &_phone{
+        display: block;
+        color: honeydew;
+        font-size: 1.1rem;
+        padding-bottom: 1rem;
+        padding-top: .5rem;
+    }
+
+
+    &_bottom{
+
+        padding: 1.5rem;
+        border-top-style:solid;
+        border-top-color: rgba(43, 42, 42, 0.438);
+        border-width: 1px;
+        position: relative;
+
+
+
+        &_list{
+
+            margin-bottom: 0rem !important;
+            &_element{
+                padding: .6rem;
+                text-decoration: none;
+                list-style: none;
+                display: inline;
+                color: white;
+                font-weight: 500;
+                font-size: .8rem;
+            }
+        }
+
+        &_icon{
+            display: inline;
+            position: absolute;
+            right: 0px;
+            
+            &s{
+            height: 30px;
+            width: 40px;
+            }
+        }
+    }
+}

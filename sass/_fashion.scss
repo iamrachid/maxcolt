@@ -1,0 +1,79 @@
+.fashion{
+
+
+    &_title{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+
+    &_text{
+        color: grey;
+        font-size: .7rem;
+        padding-top: 1rem;
+        margin: auto;
+        width: 30rem;
+    }
+
+    &_novel{
+        padding:3rem;
+        max-width: 50rem !important;
+        margin: auto;
+
+        &_row{
+
+            @media (max-width: 991px) {
+                margin-left: 30% !important;
+            }
+
+            @media (max-width: 540px) {
+                margin-left: 20% !important;
+            }
+    
+        }
+
+        &_image{
+            position: relative;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 100%, 80% 75%, 0 75%);
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 100%, 80% 75%, 0 75%);
+            height: 200px;
+            width: 250px;
+            background-position: center;
+        }
+
+        &_underimage{
+            position: absolute;
+            top: 175px;
+            font-size: .8rem;
+            font-weight: 500;
+
+            &_categ{
+                color: black;
+            }
+            &_date{
+                color: grey;
+            }
+        }
+
+        &_title{
+            padding-top: 1rem;
+            color: black;
+            font-weight: 500;
+            font-size: 1rem;
+            line-height: 1.2;
+        }
+
+        &_button{
+            padding-top:3rem;
+            padding-bottom:5rem;
+
+            &-style,&-style:hover,&-style:visited{
+                color: black;
+                text-decoration: underline;
+                font-weight: 700;
+                font-size: .7rem;
+
+            }
+        }
+    }
+}

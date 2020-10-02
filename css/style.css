@@ -1,3 +1,176 @@
+
+.fa, .fa:hover {
+  font-size: 1rem !important;
+  padding: .5rem;
+  padding-top: 1rem;
+  color: white;
+  text-decoration: none; }
+
+.footer_backgroundcolor {
+  background-color: black; }
+
+.footer_top-padding {
+  padding: 5rem; }
+
+.footer_title {
+  padding-bottom: 1rem;
+  font-weight: 700;
+  font-size: .8rem;
+  color: white; }
+  .footer_title_big {
+    font-size: 1.5rem; }
+  .footer_title_little {
+    padding-top: .8rem; }
+
+.footer_list {
+  padding-inline-start: 0px; }
+  .footer_list_element {
+    padding-bottom: .5rem;
+    list-style: none;
+    color: grey;
+    font-size: .8rem;
+    font-weight: 500; }
+
+.footer_phone {
+  display: block;
+  color: honeydew;
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+  padding-top: .5rem; }
+
+.footer_bottom {
+  padding: 1.5rem;
+  border-top-style: solid;
+  border-top-color: rgba(43, 42, 42, 0.438);
+  border-width: 1px;
+  position: relative; }
+  .footer_bottom_list {
+    margin-bottom: 0rem !important; }
+    .footer_bottom_list_element {
+      padding: .6rem;
+      text-decoration: none;
+      list-style: none;
+      display: inline;
+      color: white;
+      font-weight: 500;
+      font-size: .8rem; }
+  .footer_bottom_icon {
+    display: inline;
+    position: absolute;
+    right: 0px; }
+    .footer_bottom_icons {
+      height: 30px;
+      width: 40px; }
+
+.shipping_bar-backgroundcolor {
+  padding: 5rem;
+  background-color: #dbdada; }
+
+.shipping_bar_icons {
+  height: 40px;
+  width: 100%;
+  margin-bottom: .5rem; }
+
+.shipping_bar-title {
+  font-size: .8rem;
+  font-weight: 500; }
+
+.shipping_bar-text {
+  color: grey;
+  font-size: .7rem;
+  padding-top: .3rem; }
+
+.fashion_title {
+  font-size: 2rem;
+  font-weight: 500; }
+
+.fashion_text {
+  color: grey;
+  font-size: .7rem;
+  padding-top: 1rem;
+  margin: auto;
+  width: 30rem; }
+
+.fashion_novel {
+  padding: 3rem;
+  max-width: 50rem !important;
+  margin: auto; }
+  @media (max-width: 991px) {
+    .fashion_novel_row {
+      margin-left: 30% !important; } }
+  @media (max-width: 540px) {
+    .fashion_novel_row {
+      margin-left: 20% !important; } }
+  .fashion_novel_image {
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 100%, 80% 75%, 0 75%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 100%, 80% 75%, 0 75%);
+    height: 200px;
+    width: 250px;
+    background-position: center; }
+  .fashion_novel_underimage {
+    position: absolute;
+    top: 175px;
+    font-size: .8rem;
+    font-weight: 500; }
+    .fashion_novel_underimage_categ {
+      color: black; }
+    .fashion_novel_underimage_date {
+      color: grey; }
+  .fashion_novel_title {
+    padding-top: 1rem;
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2; }
+  .fashion_novel_button {
+    padding-top: 3rem;
+    padding-bottom: 5rem; }
+    .fashion_novel_button-style, .fashion_novel_button-style:hover, .fashion_novel_button-style:visited {
+      color: black;
+      text-decoration: underline;
+      font-weight: 700;
+      font-size: .7rem; }
+
+.section_logo {
+  padding: 3rem; }
+  .section_logos {
+    padding: 2rem 2rem;
+    max-height: 150px; }
+
+.bag_banner {
+  background: -webkit-linear-gradient(60deg, #f2f2f2 60%, #edd6b6 40%);
+  background: linear-gradient(60deg, #f2f2f2 60%, #edd6b6 40%); }
+  .bag_banner_row {
+    padding-left: 5rem; }
+  .bag_banner_title {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 10rem; }
+  .bag_banner_text {
+    color: grey;
+    width: 100% !important;
+    font-size: .7rem;
+    padding-top: 1rem;
+    margin: auto;
+    width: 30rem; }
+  .bag_banner_button {
+    padding-top: 3rem;
+    padding-bottom: 5rem; }
+    @media (max-width: 768px) {
+      .bag_banner_button {
+        padding-bottom: 0rem; } }
+    .bag_banner_button-style, .bag_banner_button-style:hover, .bag_banner_button-style:visited {
+      color: black;
+      text-decoration: underline;
+      font-weight: 700;
+      font-size: .7rem; }
+  .bag_banner_image {
+    height: 30rem;
+    padding: 3rem 0; }
+    @media (max-width: 768px) {
+      .bag_banner_image {
+        height: 20rem; } }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap");
 * {
   box-sizing: border-box; }
