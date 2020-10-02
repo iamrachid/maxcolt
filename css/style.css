@@ -165,3 +165,28 @@ section {
       left: 3rem;
       top: 50%;
       transform: translateY(-50%); }
+
+.shop__heading {
+  font-size: 2.5rem;
+  font-weight: 400; }
+
+.shop__txt {
+  font-size: 1rem;
+  color: #909090; }
+
+.shop__heart {
+  height: 1.3rem;
+  width: 1.3rem; }
+
+.shop__img {
+  width: 100%;
+  height: auto; }
+
+.price-old {
+  color: #909090;
+  text-decoration: line-through; }
+
+.rating > * {
+  height: .7rem;
+  width: .7rem;
+  fill: #ffc000; }
