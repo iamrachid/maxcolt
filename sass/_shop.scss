@@ -1,0 +1,38 @@
+.shop {
+    &__heading {
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+
+    &__txt {
+        font-size: 1rem;
+        color: #909090;
+    }
+
+    &__heart {
+        height: 1.3rem;
+        width: 1.3rem;
+    }
+
+    &__img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.price {
+
+    &-old {
+        color: #909090;
+        text-decoration: line-through;
+    }
+
+}
+
+.rating {
+    & > * {
+        height: .7rem;
+        width: .7rem;
+        fill: #ffc000;
+    }
+}
